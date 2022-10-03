@@ -16,7 +16,23 @@ section {
     margin: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
 }
-
+#txtano{
+    border-radius: 5px;
+    background-color: #add9ff;
+    border: 0;
+    height: 20px;
+}
+#verificar{
+    font-family: monospace;
+    font-weight: bold;
+    width: 120px;
+    text-align: center;
+    height: 35px;
+    border-radius: 20px;
+    border: 0;
+    cursor: pointer;
+    font-size: 18px;
+}
 footer {
     color: white;
     text-align: center;

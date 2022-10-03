@@ -59,7 +59,9 @@ function verificar(){
                 img.setAttribute('src', 'f_idosa.png')
             }
         }else{
+            vida = 'sexo nâo declarado'
             genero = "gênero não declarado"
+            
         }
         res.style.textAlign = "center"
         res.innerHTML = `Detectamos ${vida} com ${idade} anos.`
